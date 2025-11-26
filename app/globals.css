@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --primaryText: #ffffff;
+  --secondaryText: #000000;
+  --accent: #4e93d0;
+  --success: #45ab98;
+  --error: #bb5651;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primaryText: var(--primaryText);
+  --color-secondaryText: var(--secondaryText);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-error: var(--error);
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primaryText);
+  font-size: 0.875rem;
+  font-family: var(--font-funnel_display);
+}
+
+h1 {
+  font-family: var(--font-funnel_display);
+  font-weight: 800;
+}
+
+h2 {
+  font-family: var(--font-funnel_display);
+  font-weight: 800;
+}
+
+p {
+  font-family: var(--font-funnel_display);
+  text-transform: uppercase;
+}
+
+.mono {
+  font-family: var(--font-ibm_plex_mono);
+}
+
+a {
+  font-family: var(--font-funnel_display);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+html,
+body {
+  cursor: none;
 }
