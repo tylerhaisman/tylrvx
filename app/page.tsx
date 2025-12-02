@@ -47,7 +47,7 @@ export default function Home() {
             ></Image>
             <div className="flex flex-col justify-center items-center">
               <h1 className="text-7xl text-center">TYLER</h1>
-              <p className="text-xl">created by @tylrvx</p>
+              <p className="text-xl">Created by @tylrvx</p>
             </div>
             <div className="mt-16 flex flex-wrap gap-2 justify-center items-center text-center">
               <button
