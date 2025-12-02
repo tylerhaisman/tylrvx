@@ -2,12 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 //fonts
-import { Instrument_Serif, Instrument_Sans } from "next/font/google";
-
-const instrument_serif = Instrument_Serif({
-  weight: "400",
-  variable: "--font-instrument_serif",
-});
+import { Instrument_Sans } from "next/font/google";
 
 const instrument_sans = Instrument_Sans({
   variable: "--font-instrument_sans",
@@ -25,11 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${instrument_serif.variable} ${instrument_sans.variable}`}
-      >
-        {children}
-      </body>
+      <body className={`${instrument_sans.variable}`}>{children}</body>
     </html>
   );
 }
