@@ -31,7 +31,7 @@ export default function Home() {
             }
           >
             <i className="bi bi-spotify scale-110 text-xl"></i>
-            <p className="uppercase text-3xl">"The Hills" on Spotify</p>
+            <p className="uppercase text-3xl">{'"The Hills" on Spotify'}</p>
             <i className="bi bi-box-arrow-up-right"></i>
           </button>
         </div>
