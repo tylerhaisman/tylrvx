@@ -13,14 +13,14 @@ export default function Home() {
   return (
     <>
       {showPopup && (
-        <div className="z-20 py-12 px-10 md:px-12 border border-white/10 border-b-0 fixed bottom-0 left-1/2 -translate-x-1/2 bg-gradient-to-b from-white/5 to-white/10 flex flex-col justify-center items-center gap-4 rounded-t-4xl backdrop-blur-2xl overflow-hidden text-center w-11/12 md:w-auto">
+        <div className="z-20 pt-12 pb-6 md:pb-12 px-10 border border-white/10 border-b-0 fixed bottom-0 left-1/2 -translate-x-1/2 bg-gradient-to-b from-white/5 to-white/10 flex flex-col justify-center items-center gap-4 rounded-t-4xl backdrop-blur-lg overflow-hidden text-center w-11/12 md:w-auto">
           <button
             className="px-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 absolute right-3 top-3 hover:bg-white/10 cursor-pointer duration-200"
             onClick={() => setShowPopup(false)}
           >
             <i className="bi bi-x text-xl"></i>
           </button>
-          <p className="text-3xl">Check out my latest Spotify playlist!</p>
+          <p className="text-xl">Check out my latest Spotify playlist!</p>
           <button
             className="px-4 py-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 w-fit flex justify-center items-center gap-4 hover:bg-white/10 cursor-pointer duration-200"
             onClick={() =>
@@ -31,7 +31,7 @@ export default function Home() {
             }
           >
             <i className="bi bi-spotify scale-110 text-xl"></i>
-            <p className="uppercase text-3xl">{'"The Hills" on Spotify'}</p>
+            <p className="uppercase text-2xl">{'"The Hills" on Spotify'}</p>
             <i className="bi bi-box-arrow-up-right"></i>
           </button>
         </div>
@@ -47,50 +47,50 @@ export default function Home() {
             ></Image>
             <div className="flex flex-col justify-center items-center">
               <h1 className="text-7xl text-center">TYLER</h1>
-              <p className="text-xl opacity-80">created by @tylrvx</p>
+              <p className="text-xl">created by @tylrvx</p>
             </div>
-            <div className="mt-24 flex flex-wrap gap-2 justify-center items-center text-center">
+            <div className="mt-16 flex flex-wrap gap-2 justify-center items-center text-center">
               <button
                 className="px-4 py-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 w-fit flex justify-center items-center gap-4 hover:bg-white/10 cursor-pointer duration-200"
                 onClick={() => open("https://instagram.com/tylrvx", "_blank")}
               >
                 <i className="bi bi-instagram scale-110 text-xl"></i>
-                <p className="uppercase text-3xl">Instagram</p>
+                <p className="uppercase text-2xl">Instagram</p>
               </button>
               <button
                 className="px-4 py-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 w-fit flex justify-center items-center gap-4 hover:bg-white/10 cursor-pointer duration-200"
                 onClick={() => open("https://tiktok.com/@tylrvx", "_blank")}
               >
                 <i className="bi bi-tiktok scale-110 text-xl"></i>
-                <p className="uppercase text-3xl">TikTok</p>
+                <p className="uppercase text-2xl">TikTok</p>
               </button>
               <button
                 className="px-4 py-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 w-fit flex justify-center items-center gap-4 hover:bg-white/10 cursor-pointer duration-200"
                 onClick={() => open("https://youtube.com/@tylrvx", "_blank")}
               >
                 <i className="bi bi-youtube scale-110 text-xl"></i>
-                <p className="uppercase text-3xl">YouTube</p>
+                <p className="uppercase text-2xl">YouTube</p>
               </button>
               <button
                 className="px-4 py-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 w-fit flex justify-center items-center gap-4 hover:bg-white/10 cursor-pointer duration-200"
                 onClick={() => open("https://facebook.com/tylrvx", "_blank")}
               >
                 <i className="bi bi-facebook scale-110 text-xl"></i>
-                <p className="uppercase text-3xl">Facebook</p>
+                <p className="uppercase text-2xl">Facebook</p>
               </button>
               <button
                 className="px-4 py-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 w-fit flex justify-center items-center gap-4 hover:bg-white/10 cursor-pointer duration-200"
                 onClick={() => open("https://x.com/tylrvx", "_blank")}
               >
                 <i className="bi bi-twitter-x scale-110 text-xl"></i>
-                <p className="uppercase text-3xl">X</p>
+                <p className="uppercase text-2xl">X</p>
               </button>
               <button
                 className="px-4 py-2 border border-white/10 rounded-full bg-gradient-to-b from-white/5 to-white/10 w-fit flex justify-center items-center gap-4 hover:bg-white/10 cursor-pointer duration-200"
                 onClick={() => open("https://threads.net/@tylrvx", "_blank")}
               >
                 <i className="bi bi-threads scale-110 text-xl"></i>
-                <p className="uppercase text-3xl">Threads</p>
+                <p className="uppercase text-2xl">Threads</p>
               </button>
             </div>
             {/* <p className="text-xl opacity-80">created by @tylrvx</p> */}

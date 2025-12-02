@@ -2,13 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 //fonts
-import {
-  Nunito_Sans,
-  Audiowide,
-  IBM_Plex_Mono,
-  Instrument_Serif,
-  Instrument_Sans,
-} from "next/font/google";
+import { Instrument_Serif, Instrument_Sans } from "next/font/google";
 
 const instrument_serif = Instrument_Serif({
   weight: "400",
