@@ -43,7 +43,7 @@ export default function Home() {
             <Image
               src={Profile}
               alt="Profile image"
-              className="w-30 rounded-full border border-white/10"
+              className="w-30 z-10 rounded-full border border-white/10"
             ></Image>
             <div className="flex flex-col justify-center items-center">
               <h1 className="text-7xl text-center">TYLER</h1>
