@@ -37,8 +37,8 @@ export default function Constellation({ count = 60 }: { count?: number }) {
     const animate = () => {
       setStars((prev) =>
         prev.map((s) => {
-          let x = s.x + s.vx;
-          let y = s.y + s.vy;
+          const x = s.x + s.vx;
+          const y = s.y + s.vy;
 
           // bounce edges
           if (x < 0 || x > 100) s.vx *= -1;
