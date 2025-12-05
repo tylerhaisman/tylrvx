@@ -120,7 +120,7 @@ export default function Home() {
         </div>
         <div className="bg-blue-950 py-16">
           <div className="p-6 max-w-3xl mx-auto flex justify-center items-center text-center flex-col gap-6 text-white">
-            <h1 className="text-xl uppercase">Let's connect</h1>
+            <h1 className="text-xl uppercase">{"Let's connect"}</h1>
             <div className="flex justify-between gap-6">
               <div>
                 <p className="text-xs uppercase">Business inquiries</p>
