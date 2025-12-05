@@ -108,7 +108,7 @@ export default function Home() {
             {/* <p className="text-xl opacity-80">created by @tylrvx</p> */}
           </div>
         </div>
-        {/* <div className="bg-blue-100">
+        <div className="bg-blue-100">
           <div className="p-6 max-w-3xl mx-auto min-h-screen flex justify-center items-center flex-col gap-16">
             <div className="w-full h-96 relative">
               <Constellation count={120}></Constellation>
@@ -118,7 +118,33 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <div className="bg-blue-100">
+        <div className="bg-blue-950 py-16">
+          <div className="p-6 max-w-3xl mx-auto flex justify-center items-center text-center flex-col gap-6 text-white">
+            <h1 className="text-xl uppercase">Let's connect</h1>
+            <div className="flex justify-between gap-6">
+              <div>
+                <p className="text-xs uppercase">Business inquiries</p>
+                <p className="text-xl">contacttylrvx@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="bg-gradient-to-b from-blue-100 to-blue-950">
+          <div className="p-6 pb-96 max-w-3xl mx-auto flex justify-center items-center flex-col gap-16">
+            <h1 className="text-xl text-center items-center uppercase text-blue-950">
+              Shared with <span className="font-extralight">you</span>
+            </h1>
+          </div>
+        </div>
+        <div className="bg-blue-950 relative">
+          <div className="bg-orange-600 absolute top-0 bg-black w-[200vw] rounded-full aspect-square left-1/2 -translate-x-1/2 -translate-y-28 shadow-[0_-100px_200px_rgb(234,88,12)]"></div>
+          <div className="z-10 relative p-6 max-w-3xl mx-auto flex justify-center items-center flex-col gap-16">
+            <h1 className="text-xl text-center items-center uppercase text-blue-950">
+              Hello world
+            </h1>
+          </div>
+        </div> */}
+        {/* <div className="bg-blue-100">
           <div className="p-6 max-w-3xl mx-auto min-h-screen flex justify-center items-center flex-col gap-16">
             <div className="w-full h-96 relative">
               <Broadcast></Broadcast>
